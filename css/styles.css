@@ -22,6 +22,8 @@
   --bordercolor-project: #eeeeee;
 
   --logo-color: #2196f3;
+  --logo-black: #212121;
+  --logo-white: #ffffff;
 }
 
 .logo {
@@ -29,10 +31,16 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-
-  letter-spacing: 0.03em;
-
   color: var(--logo-color);
+  letter-spacing: 0.03em;
+}
+
+.logo .logo-black {
+  color: var(--logo-black);
+}
+
+.logo .logo-white {
+  color: var(--logo-white);
 }
 
 body {
@@ -152,7 +160,6 @@ address {
 
 footer address {
   color: var(--fontcolor-footer-address);
-  font-size: 16px;
   line-height: 1.7;
 }
 
