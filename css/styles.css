@@ -3,6 +3,7 @@
 :root {
   --bgcolor-body: #ffffff;
   --bgcolor-filter-button: #f5f4fa;
+  --bgcolor-order-service-button: #2196f3;
   --bgcolor-filter-button-active: #2196f3;
   --bgcolor-footer: #2f303a;
 
@@ -11,6 +12,7 @@
   --fontcolor-navigation-focus-hover: #2196f3;
   --fontcolor-contacts: #757575;
   --fontcolor-contacts-focus-hover: #2196f3;
+  --fontcolor-order-service-button: #ffffff;
   --fontcolor-filter-button-active: #ffffff;
   --fontcolor-teammates-positions: #757575;
   --fontcolor-projects-type: #757575;
@@ -100,6 +102,8 @@ ul {
 .order-service-button {
   font-weight: bold;
   line-height: 1.88;
+  color: var(--fontcolor-order-service-button);
+  background: var(--bgcolor-order-service-button);
 }
 
 .features h3 {
