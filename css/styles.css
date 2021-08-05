@@ -64,7 +64,8 @@ ul {
 }
 
 .navigation:hover,
-.navigation:focus {
+.navigation:focus,
+.navigation:active {
   color: var(--fontcolor-navigation-focus-hover);
 }
 
