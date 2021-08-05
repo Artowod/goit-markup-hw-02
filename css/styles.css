@@ -49,8 +49,9 @@ body {
   font-size: 16px;
   color: var(--fontcolor-body);
 }
-body a {
-  text-decoration: none;
+
+ul {
+  list-style-type: none;
 }
 
 .navigation {
@@ -62,6 +63,10 @@ body a {
 
 .navigation:hover,
 .navigation:focus {
+  color: var(--fontcolor-navigation-focus-hover);
+}
+
+.is-active {
   color: var(--fontcolor-navigation-focus-hover);
 }
 
@@ -141,6 +146,11 @@ body a {
   line-height: 1.63;
 }
 
+.projects .filter li {
+  border: none;
+  box-sizing: content-box;
+}
+
 .filter button:active,
 .filter button:hover {
   color: var(--fontcolor-filter-button-active);
@@ -168,7 +178,7 @@ footer address {
   box-sizing: border-box;
 }
 
-.projects h2 {
+.projects h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
