@@ -157,6 +157,7 @@ ul {
 }
 
 .filter button:active,
+.filter button:focus,
 .filter button:hover {
   color: var(--fontcolor-filter-button-active);
   background: var(--bgcolor-filter-button-active);
