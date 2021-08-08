@@ -151,7 +151,7 @@ ul {
   line-height: 1.63;
 }
 
-.projects .filter li {
+.projects .filter {
   border: none;
   box-sizing: content-box;
 }
